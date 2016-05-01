@@ -1,4 +1,6 @@
-#pragma once
+#ifndef __MONACU_H__
+#define __MONACU_H__
+
 #include <vector>
 #include <iostream>
 #include <sstream>
@@ -172,3 +174,4 @@ namespace MonaCu
 
 }//MonaCu
 
+#endif //__MONACU_H__
