@@ -130,14 +130,6 @@ namespace MonaCu
             vectorCopy(_size, otherMat._mat, _mat);
             return res;
         }
-
-        void swap(cuVector<Real> &&otherMat) throw()
-        {
-            Real *tmp = otherMat._mat;
-            otherMat._mat = _mat;
-            _mat = tmp;
-            _size = otherMat.size();
-        }
     };
 }//MonaCu
 
