@@ -53,6 +53,7 @@ namespace MonaCu
         }
 
         cuVector(vector<Real> &hostVector){
+            static_assert(is_arithmetic<Real>::value, "Arithmetic type required.");
             error_t res = this->alloc(hostVector.data(), hostVector.size());
             if (res != Success) throw WHAT("cuda alloc error"); //Success == 0
         }
