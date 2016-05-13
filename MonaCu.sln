@@ -7,11 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CudaBackEnd", "src\CudaBack
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tester", "src\Tester\Tester.vcxproj", "{AC43C483-D389-4A1A-A769-5C99FFC2A5D5}"
 	ProjectSection(ProjectDependencies) = postProject
-		{C1263B94-461D-4DA2-A79A-1FC5DBD2F66B} = {C1263B94-461D-4DA2-A79A-1FC5DBD2F66B}
 		{03AB91A1-3792-499A-B634-5396C05ABB31} = {03AB91A1-3792-499A-B634-5396C05ABB31}
 	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FrontEnd", "src\FrontEnd\FrontEnd.vcxproj", "{C1263B94-461D-4DA2-A79A-1FC5DBD2F66B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,18 +44,6 @@ Global
 		{AC43C483-D389-4A1A-A769-5C99FFC2A5D5}.Release|Win32.Build.0 = Release|Win32
 		{AC43C483-D389-4A1A-A769-5C99FFC2A5D5}.Release|x64.ActiveCfg = Release|x64
 		{AC43C483-D389-4A1A-A769-5C99FFC2A5D5}.Release|x64.Build.0 = Release|x64
-		{C1263B94-461D-4DA2-A79A-1FC5DBD2F66B}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{C1263B94-461D-4DA2-A79A-1FC5DBD2F66B}.Debug|Mixed Platforms.Build.0 = Debug|Win32
-		{C1263B94-461D-4DA2-A79A-1FC5DBD2F66B}.Debug|Win32.ActiveCfg = Debug|Win32
-		{C1263B94-461D-4DA2-A79A-1FC5DBD2F66B}.Debug|Win32.Build.0 = Debug|Win32
-		{C1263B94-461D-4DA2-A79A-1FC5DBD2F66B}.Debug|x64.ActiveCfg = Debug|x64
-		{C1263B94-461D-4DA2-A79A-1FC5DBD2F66B}.Debug|x64.Build.0 = Debug|x64
-		{C1263B94-461D-4DA2-A79A-1FC5DBD2F66B}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{C1263B94-461D-4DA2-A79A-1FC5DBD2F66B}.Release|Mixed Platforms.Build.0 = Release|Win32
-		{C1263B94-461D-4DA2-A79A-1FC5DBD2F66B}.Release|Win32.ActiveCfg = Release|Win32
-		{C1263B94-461D-4DA2-A79A-1FC5DBD2F66B}.Release|Win32.Build.0 = Release|Win32
-		{C1263B94-461D-4DA2-A79A-1FC5DBD2F66B}.Release|x64.ActiveCfg = Release|x64
-		{C1263B94-461D-4DA2-A79A-1FC5DBD2F66B}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

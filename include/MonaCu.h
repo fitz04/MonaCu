@@ -59,22 +59,14 @@ namespace MonaCu
 
         cuVector(cuVector<Real> &otherMat){ copy(otherMat); }
         cuVector(cuVector<Real> &&otherMat){
-            //copy(otherMat);
-            // work on debug mod but not work on release
-            Real *tmp = otherMat._mat;
-            otherMat._mat = _mat;
-            _mat = tmp;
+            std::swap(_mat, otherMat._mat);
             _size = otherMat.size();
         }
         void operator=(cuVector<Real> &otherMat){
             copy(otherMat);
         }
         void operator=(cuVector<Real> &&otherMat){
-            //copy(otherMat);
-            //work on debug mod but not work on release
-            Real *tmp = otherMat._mat;
-            otherMat._mat = _mat;
-            _mat = tmp;
+            std::swap(_mat, otherMat._mat);
             _size = otherMat.size();
         }
 
